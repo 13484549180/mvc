@@ -7,16 +7,13 @@
     ],
     "require": {
         "php": ">= 5.3.0",
-        //第三方错误类库
+        //错误提示
         "filp/whoops": "*",
-        //输出第三方类库
-        "symfony/var-dumper":"*"
-    },
-    //composer中国镜像
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
+        //第三方输出类库
+        "symfony/var-dumper":"*",
+        //第三方medoo数据类库
+        "catfan/medoo":"*",
+        //第三方模板引擎
+        "twig/twig":"*"
     }
 }
