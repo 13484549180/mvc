@@ -1,5 +1,5 @@
 <?php
 return array(
-    'CTRL' => 'indexs',
+    'CTRL' => 'index',
     'ACTION' => 'index'
 );
